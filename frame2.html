@@ -1,0 +1,95 @@
+<html>
+<title>COMMENT </title>
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<link href="ris.css" rel="stylesheet">
+<script src="ris.js"></script>
+<style>
+h1.m18 {
+  font-weight: 700;
+  font-size: 4.5em;
+  color: #fff;
+  width: 3em;
+  height: 3em;
+}
+.m18 .letters-container {
+  position: absolute;
+  left: 180px;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  height: 1em;
+}
+.m18 .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  line-height: 0.7em;
+  right: -0.12em;
+  top: -0.2em;
+}
+.m18 .bang {
+  font-size: 1.4em;
+  top: auto;
+  left: -0.06em;
+}
+.l
+{
+color:white;
+font-family:segoe print;
+font-size:23px;
+background-color:black;
+}
+</style>
+</head>
+<body background="support2.jpg" align="top" width="50%" height="50%">   
+<h1 class="ml8">
+<a href="justclick.html">
+  <span class="letters-container">
+  <center>
+    <span class="letters letters-left">SELECT</span>
+    <span class="letters bang">!</span>
+  </span></CENTER>
+  </a>
+</h1>
+
+<div class="slider" id="main-slider"  style="margin-center:20px; width=50%;">
+  <!-- outermost container element -->
+  <div class="slider-wrapper"  style="margin-center:20px; width=20%;">
+    <!-- innermost wrapper element -->
+
+    <img src="https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/social-media-icons-hanging-from-blue-string.jpg?itok=xS6jHMEy" width="60px" height="60px"  alt="First" class="slide" />
+    <!-- slides -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3PM9d-i8h9JwNLVacqiOuSqv57W-n0x-DQOOwfLEXXw5Y-UGTRQ" width="20px" height="20px" alt="Second" class="slide" />
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6qUDAcAdvv6pyQAFkYLBMk6iZsctfQmWWJ3T-B9o7Ka7Os8_YFA" width="20px" height="20px" alt="Third" class="slide" />
+	 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0j9PsCTtsEurO6-jCAOJr-mF7tfvwuLsbqNZHDNKTWTmD-R1C" width="20px" height="20px" alt="fourth" class="slide" />
+	  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2-mwK9zmMf4Fc7XTN5TaEXvBi00iIg-UAsEKAxD1nsZ__49ZUw" width="60px" height="60px" alt="fifth" class="slide" />
+	  
+	   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0J1dZmH_z8zb3EvzW6THuDrltmYcbz31FnkE9ADxWq8EpVr-9Nw" width="60px" height="60px" alt="Third" class="slide" />
+  </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script>
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml8 .bang',
+    scale: [0, 1],
+    rotateZ: [45, 15],
+    duration: 1200,
+    offset: '-=1000'
+  }).add({
+    targets: '.ml8',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1400
+  });
+
+</script>
+</div>
+</table>
+</body>
+</html>

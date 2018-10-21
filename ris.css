@@ -1,0 +1,30 @@
+<html>
+body {
+  margin: 0;
+  padding: 0;
+}
+.slider {
+  width: 900px;
+  margin: 2em auto;
+}
+
+.slider-wrapper {
+  width: 900px;
+  height: 800px;
+  position: relative;
+  margin-top:0px;
+}
+
+.slide {
+  float: left;
+  position: absolute;
+  width: 900px;
+  height: 800px;
+  opacity: 0;
+  transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+  opacity: 1;
+}
+</html>
